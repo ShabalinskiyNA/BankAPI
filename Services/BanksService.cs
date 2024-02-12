@@ -10,7 +10,12 @@ namespace HackathonTask.Services
 
         public BanksService() 
         { 
-            Banks = new List<IBankInfo>() { new AlfaBankInfo(), new BelarusBankInfo() };        
+            Banks = new List<IBankInfo>() 
+            { 
+                new AlfaBankInfo(), 
+                new BelarusBankInfo(), 
+                new NationalBankInfo() 
+            };        
         }
 
         public IEnumerable<string> GetAvailiableBanksNames()

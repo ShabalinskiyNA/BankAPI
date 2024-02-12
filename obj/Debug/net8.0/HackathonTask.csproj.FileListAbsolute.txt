@@ -31,3 +31,4 @@ D:\petPrjkt\HackathonTask\obj\Debug\net8.0\refint\HackathonTask.dll
 D:\petPrjkt\HackathonTask\obj\Debug\net8.0\HackathonTask.pdb
 D:\petPrjkt\HackathonTask\obj\Debug\net8.0\HackathonTask.genruntimeconfig.cache
 D:\petPrjkt\HackathonTask\obj\Debug\net8.0\ref\HackathonTask.dll
+D:\petPrjkt\HackathonTask\obj\Debug\net8.0\HackathonTask.sourcelink.json
