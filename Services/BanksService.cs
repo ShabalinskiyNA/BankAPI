@@ -1,9 +1,10 @@
 ﻿using HackathonTask.Models.MyApp;
 using HackathonTask.Services.BankInfo;
+using HackathonTask.Services.Interfaces;
 
 namespace HackathonTask.Services
 {
-    public class BanksService
+    public class BanksService : IBankService 
     {
         public List<IBankInfo> Banks { get; }
        

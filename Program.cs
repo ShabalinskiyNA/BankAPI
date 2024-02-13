@@ -1,4 +1,7 @@
 
+using HackathonTask.Services;
+using HackathonTask.Services.Interfaces;
+
 namespace HackathonTask
 {
     public class Program
@@ -8,7 +11,7 @@ namespace HackathonTask
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddTransient<IBankService, BanksService>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
